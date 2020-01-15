@@ -1,26 +1,32 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "Sprite Sprite Move1 Move-2" "Sprite Sprite Move3 Move4" "Name Id . .";
+body{
+  center:100%
+};
+
+.Sprite,.Move1,.Move2,.Move3,.Move4 {
+  grid-area: Sprite;
+  border-style:solid;
   background-color: #FFFF00;
-  color:black;
+  height:300px;
+  padding:15px;
+};
 
-
+.Name {
+  background-color: #0000FF;
+  height: 100px;
+  border-style: solid;
+};
+.container,.ID, .Evolution {
+  grid-area: Id;
+  background-color: #00FF00;
+  height: 100px;
+  border-style:solid;
 }
 
-.Sprite { grid-area: Sprite; background-color: #FFFF00}
-
-.Move1 { grid-area: Move1; }
-
-.Move2 { grid-area: Move2; }
-
-.Move3 { grid-area: Move3; }
-
-.Move4 { grid-area: Move4; }
-
-.Name { grid-area: Name; }
-
-.Id { grid-area: Id; }
+#divers1,#divers2 {
+  grid-area: Id;
+  background-color: #00FF00;
+  height: 100px;
+  border-style:solid;
+};
 
 
