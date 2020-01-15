@@ -1,1 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Sprite Sprite Move1 Move-2" "Sprite Sprite Move3 Move4" "Name Id . .";
+  background-color: #FFFF00;
+  color:black;
+
+
+}
+
+.Sprite { grid-area: Sprite; background-color: #FFFF00}
+
+.Move1 { grid-area: Move1; }
+
+.Move2 { grid-area: Move2; }
+
+.Move3 { grid-area: Move3; }
+
+.Move4 { grid-area: Move4; }
+
+.Name { grid-area: Name; }
+
+.Id { grid-area: Id; }
+
 
