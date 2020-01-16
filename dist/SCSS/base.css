@@ -1,10 +1,14 @@
-body {
-  center: 100%;
+/*body{
+  background-color:#FF0000;
+}
+*/
+.Submit {
+  height: 100px;
+  padding: 30px;
 }
 
-.Sprite, .Move1, .Move2, .Move3, .Move4 {
-  grid-area: Sprite;
-  border-style: solid;
+#Sprite, #move1, #move2, #move3, #move4 {
+  /*border-style:solid;*/
   background-color: #FFFF00;
   height: 300px;
   padding: 15px;
@@ -13,21 +17,21 @@ body {
 .Name {
   background-color: #0000FF;
   height: 100px;
-  border-style: solid;
+  padding: 15px;
 }
 
 .container, .ID, .Evolution {
-  grid-area: Id;
   background-color: #00FF00;
   height: 100px;
-  border-style: solid;
+  /*border-style:solid;*/
+  padding: 50px;
 }
 
 #divers1, #divers2 {
-  grid-area: Id;
   background-color: #00FF00;
   height: 100px;
-  border-style: solid;
+  padding: 30px;
+  /*border-style:solid;*/
 }
 
 /*# sourceMappingURL=base.css.map */
