@@ -9,18 +9,19 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-
+<template id ='template'>
 <div class="container">
     <div class="row"></div>
-    <div class="Submit col-sm-12">Search & Submit<button id="submit"></button></div>
+
+    <div class="Submit col-sm-12">
+        <form>
+            <input id="input" />
+            <button>Click Here for the Pokemon</button>
+        </form>
+    </div>
     </div>
     <div class="row">
         <div class="Sprite col-sm-4">Sprite</div>
@@ -35,6 +36,7 @@
     <div class="Evolution col-sm-2">Evolution</div>
     <div class="divers col-sm-2">divers</div>
 </div>
+</template>
 <!--<div class="jumbotron" style ="margin-bottom:0; color:white; background-color:#0000ff;">-->
 <!--    <h2 class="text-center" style = "font-size:50px; font-weight:600;">Give the Pokemon name</h2>-->
 <!--</div>-->

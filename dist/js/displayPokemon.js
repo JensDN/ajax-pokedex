@@ -1,4 +1,5 @@
-function displayPokemon (ID, imgURL, Moves, Evolution) {
-var template = document.cloneNode(document.querySelector('.class'))
-
+function displayPokemon(pokedata) {
+    var template = document.cloneNode(document.querySelector("#template"), true)
 }
+
+
