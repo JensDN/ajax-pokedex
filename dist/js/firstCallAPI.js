@@ -1,6 +1,6 @@
 async function firstCallAPI (data){
     const info = await data;
-    const resPokeSpecies = await fetch(data.species.url);
+    const resPokeSpecies = await fetch(info.species.url);
     const dataPokeSpecies =  await resPokeSpecies.json();
     const resPokeEvoChain = await fetch(dataPokeSpecies.evolution_chain);
     const dataPokeEvoChain = await resPokeEvoChain.json();
